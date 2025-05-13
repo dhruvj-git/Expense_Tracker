@@ -1,23 +1,45 @@
-#  Personal Finance Tracker + Expense Analyzer
+# 💰 Personal Finance Tracker + Expense Analyzer
 
-A solo project to help users manage and analyze their personal finances. Built with Java (OOP), SQLite, and Power BI.
+A solo project to help users manage and analyze their personal finances.  
+Built with **Java (OOP)**, **SQLite**, and **Power BI**.
 
-## 🔧 Tech Stack
-- Java 17 (OOP)
-- SQLite (via JDBC)
-- Power BI
-- Python (optional - analytics)
+Helps users manage expenses, track budgets, and visualize spending habits.
 
-## ✅ Features
-- Add, view, and categorize expenses/income
-- Monthly budget tracking
-- Power BI dashboard with spending analysis
-- Optional forecasting module (Python)
+---
 
-##  Screenshots (Coming Soon)
+## 🛠️ Tech Stack
 
-##  Getting Started
-Coming soon: Instructions to set up and run locally.
+- **Java (OOP)** – Core logic and data handling
+- **SQLite** – Lightweight embedded database (via JDBC)
+- **Power BI** – Dashboards and analytics
+- **(Optional)** Python – For automation, forecasting, or CSV export
 
-##  License
-MIT
+---
+
+## 📊 Features
+
+- [x] Add, view, and categorize expenses/income
+- [x] Monthly budget tracking
+- [ ] Export data to Power BI
+- [ ] Visual dashboard with spending analysis
+- [ ] Optional forecasting module (Python)
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- Java 17+
+- SQLite
+- Power BI Desktop (optional)
+- (Optional) Python 3 for analytics
+
+### 🔧 How to Run the Java Application
+
+```bash
+# Compile the Java files
+javac src/Main.java
+
+# Run the application
+java src/Main
