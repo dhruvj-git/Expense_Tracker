@@ -1,0 +1,53 @@
+# ========== Java ==========
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.tmp
+*.swp
+
+# IntelliJ
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+target/
+.gradle/
+build/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# ========== SQLite ==========
+*.sqlite
+*.db
+*.db3
+*.sqlite3
+*.log
+
+# ========== Power BI ==========
+*.pbix
+
+# ========== Python (Optional) ==========
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.venv/
+.env
+*.pkl
+
+# ========== OS/System Files ==========
+.DS_Store
+Thumbs.db
+*.bak
+
+# ========== Logs / Misc ==========
+*.log
+*.csv
+*.tsv
+*.tmp
