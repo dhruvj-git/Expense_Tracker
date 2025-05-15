@@ -1,45 +1,45 @@
-# 💰 Personal Finance Tracker + Expense Analyzer
-
-A solo project to help users manage and analyze their personal finances.  
-Built with **Java (OOP)**, **SQLite**, and **Power BI**.
-
-Helps users manage expenses, track budgets, and visualize spending habits.
+Sure! Here’s a clean, updated README draft reflecting your current progress and plans:
 
 ---
 
-## 🛠️ Tech Stack
+# Personal Finance Tracker
 
-- **Java (OOP)** – Core logic and data handling
-- **SQLite** – Lightweight embedded database (via JDBC)
-- **Power BI** – Dashboards and analytics
-- **(Optional)** Python – For automation, forecasting, or CSV export
+## Project Overview
+
+This is a Personal Finance Tracker application designed to help users manage their income, expenses, and budgets efficiently. The project involves creating a backend in Java connected to a PostgreSQL database, with future plans for data visualization using Power BI and a user-friendly frontend.
+
+## Tech Stack
+
+* **Backend:** Java (JDK 17+)
+* **Database:** PostgreSQL
+* **Data Visualization:** Power BI (planned)
+* **Version Control:** Git
+
+## Current Progress (as of May 15, 2025)
+
+* Database schema designed with tables for Users, Transactions, Categories, and Tags.
+* PostgreSQL database setup completed locally.
+* Java project created with packages for models and DAO layers.
+* Implemented database connection utility for PostgreSQL using JDBC.
+* Started implementing DAO classes for CRUD operations, focusing initially on the Transaction entity.
+* Basic class structures with constructors and toString methods planned for all entities.
+
+## Next Steps
+
+* Complete model and DAO classes for all entities.
+* Implement and test CRUD operations fully.
+* Design and develop a console-based UI for initial testing and user interaction.
+* Finalize database schema based on initial testing feedback.
+* Begin planning frontend development and Power BI integration for visualization.
+* Add detailed error handling and input validations.
+
+## How to Run (once complete)
+
+1. Set up PostgreSQL database with provided schema.
+2. Configure database connection credentials in `DatabaseConnection.java`.
+3. Build and run the Java application using your IDE or command line.
+4. Interact with the console UI to add/view/manage financial data.
 
 ---
 
-## 📊 Features
-
-- [x] Add, view, and categorize expenses/income
-- [x] Monthly budget tracking
-- [ ] Export data to Power BI
-- [ ] Visual dashboard with spending analysis
-- [ ] Optional forecasting module (Python)
-
----
-
-## 🚀 Getting Started
-
-### 📦 Prerequisites
-
-- Java 17+
-- SQLite
-- Power BI Desktop (optional)
-- (Optional) Python 3 for analytics
-
-### 🔧 How to Run the Java Application
-
-```bash
-# Compile the Java files
-javac src/Main.java
-
-# Run the application
-java src/Main
+If you want, I can also help you draft the actual SQL schema or Java class comments for the repo next!
